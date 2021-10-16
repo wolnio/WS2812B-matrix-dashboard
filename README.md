@@ -1,2 +1,26 @@
 # WS2812B-matrix-dashboard
-LED dashboard matrix with resolution of 21x17 pixels. Each pixel is programmable.
+LED dashboard matrix with resolution of 21x17 pixels
+In progress...
+
+## Why did you do that?
+I'm very fascinated with the idea of creating something. If the effect of creation can be visualised, it's a perfect match for me.
+Moreover, thanks to the WiFi connection of ESP32 it can communicate with IOT devices. Sounds great :)
+
+## Used tools
+- ESP32 microcontroller
+- 357 WS2812B leds
+- some electronics needed to make the leds work
+- 5V power supply or step-up voltage converter
+- old NES pad (I used version with original connector, not the one with USB)
+- photo frame (I suggest big and pretty thick one)
+
+## Description
+A base for this project are WS2812B leds which are programmable. Basically, you can do whatever you want with them.
+
+The matrix is powered with 12V power supply which is later converted to 5V, because of the type of used leds and microcontroller (both of them need at least 5V voltage logic).
+
+Controller was made from an old NES pad, that sends serial data. ESP32 decodes that signals with the special part of code.
+
+
+Matrix is divided on 6 
+A self invented and DIY project of dashboard, based on ESP32 microcontroller in combination of WS2812B leds.
