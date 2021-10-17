@@ -21,6 +21,17 @@ The matrix is powered with 12V power supply which is later converted to 5V, beca
 
 Controller was made from an old NES pad, that sends serial data. ESP32 decodes that signals with the special part of code.
 
+Matrix is divided on 6 tiles (menu), each sygnifying different task. You can navigate through it by NES pad and thanks to a backlight the user knows in which part of menu he is.
 
-Matrix is divided on 6 
-A self invented and DIY project of dashboard, based on ESP32 microcontroller in combination of WS2812B leds.
+## What is done and what are the future plans?
+For now, i've made:
+- fully functional menu with animations
+- **digital clock** - a clock that connects to a web server and gets the actual time value
+- **snake** - a simple snake game with different levels/maps and increasing speed to make the play a bit challenging
+
+Future plans:
+- **arcanoid game** - actually there is a menu tile already prepared
+- **tetris** - classic, old and good tetris (maybe with music, but that needs another soldering to add piezo buzzer)
+- **settings** - there is also manu tile for that, it'd be nice to be able to actually change brightness or collors
+- **weather station** - if I can connect to a server and get the actually time, why wouldn't I get the information about weather from my location and visualise it!
+- **room temperature** - if there is possibility to connect to an IOT devices, I can make it communicate with my Xiaomi Temperature Monitor and visualise it on the matrix
