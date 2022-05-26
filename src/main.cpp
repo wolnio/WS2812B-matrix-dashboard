@@ -5,8 +5,8 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
-const char *ssid = "Orange_światłowzwód_69";
-const char *password = "haniaIkonrad29";
+const char *ssid = "***";
+const char *password = "***";
 
 void setup()
 {
